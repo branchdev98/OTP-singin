@@ -1,0 +1,115 @@
+.background{
+    background-color: #125b6b;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300px;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #105262;
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 3px;
+    background-color: #fff;
+  }
+
+
+.otp-input-wrapper {
+    margin: 50px 50px 50px 50px;
+    width: 240px;
+    text-align: left;
+    display: inline-block;
+  }
+  .otp-input-wrapper input {
+    padding: 0;
+    width: 250px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: transparent;
+    border: 0;
+    margin-left: 12px;
+    letter-spacing: 23px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .otp-input-wrapper input:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  .otp-input-wrapper svg {
+    position: relative;
+    display: block;
+    color: white;
+    width: 250px;
+    height: 2px;
+  }
+  
+  .height-100 {
+    height: 100vh
+}
+.height-100 {
+    height: 100vh
+}
+
+.card {
+    width: 400px;
+    border: none;
+    height: 300px;
+    box-shadow: 0px 5px 20px 0px #d2dae3;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card h6 {
+    color: red;
+    font-size: 20px
+}
+
+.inputs input {
+    width: 40px;
+    height: 40px
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0
+}
+
+.card-2 {
+    background-color: #fff;
+    padding: 10px;
+    width: 350px;
+    height: 100px;
+    bottom: -50px;
+    left: 20px;
+    position: absolute;
+    border-radius: 5px
+}
+
+.card-2 .content {
+    margin-top: 50px
+}
+
+.card-2 .content a {
+    color: red
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid red
+}
+
+.validate {
+    border-radius: 20px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid red;
+    width: 140px
+}

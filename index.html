@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='index.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="./fontawesome.css" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
+  
+</head>
+
+<body class="background" style="color: white">
+  <div style="display: flex; align-items: center; width: 100%; justify-content: space-between;">
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <div style="display: inline">
+        <i class="material-icons" style="font-size:24px; color: white; padding: 10px">close</i>
+      </div>
+      <div style="display: inline" style="padding:10px; color: white; font-weight: 300;"><span>OTP</span></div>
+    </div>
+    <div style="display:inline; float: right">
+      <i class="material-icons">send</i>
+      
+    </div>
+   
+  </div>
+  <div id="myProgress">
+    <div id="myBar"></div>
+  </div>
+  
+  <!--<i class="fa fa-close" style="font-size:24px; color: white; "></i>-->
+  <center>
+
+    <img src="logo.svg" style="margin: 55px 55px 55px 55px;">
+    <div style="color:white; font-weight: 600;">Please type the OTP we have sent<br> you, in order to complete
+      Device<br> Registeration.</div>
+      
+    <div class="otp-input-wrapper">
+      <input type="text" maxlength="6" pattern="[0-9]*" autocomplete="off" onFocus="document.execCommand('OverWrite', false, true);"
+      onBlur="document.execCommand('OverWrite', false, false);">
+      <svg viewBox="0 0 240 1" xmlns="http://www.w3.org/2000/svg">
+        <line style="color:white" x1="0" y1="0" x2="240" y2="0" stroke="#ffffff" stroke-width="2"
+          stroke-dasharray="28,12" />
+      </svg>
+    </div>
+   
+     <!-- <div class="position-relative">
+          
+              
+              
+              <div id="otp" class="inputs d-flex flex-row justify-content-center mt-2"> 
+                <input class="m-2 text-center form-control rounded" type="text" id="first" maxlength="1" /> 
+                <input class="m-2 text-center form-control rounded" type="text" id="second" maxlength="1" /> 
+                <input class="m-2 text-center form-control rounded" type="text" id="third" maxlength="1" /> 
+                <input class="m-2 text-center form-control rounded" type="text" id="fourth" maxlength="1" /> 
+                <input class="m-2 text-center form-control rounded" type="text" id="fifth" maxlength="1" /> 
+                <input class="m-2 text-center form-control rounded" type="text" id="sixth" maxlength="1" /> 
+              </div>
+              
+          
+      </div>-->
+  </div>
+    <br>
+    <div id="timedisplay"
+      style="color:white; font-size: 14px;">
+      Available for resending OTP in 01:15</div>
+      <div class="mt-4"> <button class="btn btn-primary px-4 validate" onclick="move()">Validate</button> </div>
+      <!--<button onclick="move()">Click Me</button> -->
+  </center>
+  <script src="index.js"></script>
+</body>
